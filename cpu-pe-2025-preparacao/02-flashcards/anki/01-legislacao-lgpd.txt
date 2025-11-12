@@ -1,0 +1,50 @@
+O que significa LGPD?;Lei Geral de Proteção de Dados (Lei nº 13.709/2018) - Regulamenta o tratamento de dados pessoais no Brasil;lgpd legislacao
+Quando a LGPD entrou em vigor?;18 de setembro de 2020;lgpd legislacao datas
+Qual órgão é responsável por fiscalizar a LGPD?;ANPD - Autoridade Nacional de Proteção de Dados;lgpd legislacao anpd
+O que são dados pessoais segundo a LGPD?;Informação relacionada a pessoa natural identificada ou identificável;lgpd legislacao conceitos
+O que são dados pessoais sensíveis?;Dados sobre origem racial/étnica, convicção religiosa, opinião política, filiação sindical, saúde, vida sexual, genética ou biometria;lgpd legislacao dados-sensiveis
+Qual a diferença entre dado pessoal e dado pessoal sensível?;Dados sensíveis são mais protegidos por revelarem aspectos íntimos da pessoa (raça, religião, saúde, etc.) e requerem consentimento específico;lgpd legislacao conceitos
+Quais são os princípios da LGPD? (Liste 5 principais);1. Finalidade 2. Adequação 3. Necessidade 4. Livre acesso 5. Qualidade dos dados. Existem 10 no total;lgpd legislacao principios
+O que é o princípio da Finalidade?;Tratamento para propósitos legítimos, específicos, explícitos e informados ao titular;lgpd legislacao principios
+O que é o princípio da Necessidade?;Limitação do tratamento ao mínimo necessário para atingir suas finalidades (minimização);lgpd legislacao principios
+O que é o princípio da Adequação?;Compatibilidade do tratamento com as finalidades informadas ao titular;lgpd legislacao principios
+Quantas bases legais tem a LGPD?;10 bases legais para tratamento de dados pessoais;lgpd legislacao bases-legais
+Quais as 10 bases legais da LGPD?;1. Consentimento 2. Obrigação legal 3. Políticas públicas 4. Estudos/pesquisa 5. Contrato 6. Direitos 7. Vida 8. Saúde 9. Legítimo interesse 10. Crédito;lgpd legislacao bases-legais
+O que é consentimento na LGPD?;Manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados;lgpd legislacao consentimento
+O consentimento precisa ser sempre por escrito?;Não necessariamente, mas deve ser demonstrável. Pode ser por escrito ou meio eletrônico;lgpd legislacao consentimento
+O que é legítimo interesse?;Base legal que permite tratamento quando necessário para atender interesses legítimos do controlador, respeitando direitos dos titulares;lgpd legislacao bases-legais
+Quem é o Titular segundo a LGPD?;Pessoa natural a quem se referem os dados pessoais;lgpd legislacao agentes
+Quem é o Controlador segundo a LGPD?;Pessoa natural ou jurídica que toma decisões sobre o tratamento de dados pessoais;lgpd legislacao agentes
+Quem é o Operador segundo a LGPD?;Pessoa natural ou jurídica que realiza o tratamento de dados em nome do controlador;lgpd legislacao agentes
+Qual a diferença entre Controlador e Operador?;Controlador DECIDE sobre o tratamento. Operador EXECUTA o tratamento conforme instruções do controlador;lgpd legislacao agentes
+O que é DPO (Data Protection Officer)?;Encarregado de Proteção de Dados - pessoa responsável por atuar como canal de comunicação entre controlador, titulares e ANPD;lgpd legislacao dpo
+O DPO é obrigatório para todas as empresas?;Não está explícito na lei, mas é recomendado. Empresas de grande porte ou que tratam dados em larga escala devem ter;lgpd legislacao dpo
+Quais são os direitos dos titulares? (Liste 5);1. Confirmação de tratamento 2. Acesso aos dados 3. Correção 4. Anonimização/bloqueio/eliminação 5. Portabilidade;lgpd legislacao direitos-titulares
+O que é o direito de portabilidade?;Direito de receber dados em formato estruturado e interoperável para transferir a outro fornecedor;lgpd legislacao direitos-titulares
+O que é o direito ao esquecimento na LGPD?;Direito de solicitar eliminação dos dados pessoais quando desnecessários, excessivos ou tratados em desconformidade;lgpd legislacao direitos-titulares
+Prazo para o controlador responder requisições do titular?;15 dias, podendo ser prorrogado por mais 15;lgpd legislacao prazos
+O que é anonimização?;Processo que torna impossível a identificação do titular, fazendo com que o dado deixe de ser pessoal;lgpd legislacao conceitos
+Dado anonimizado está sujeito à LGPD?;NÃO. A LGPD não se aplica a dados verdadeiramente anonimizados;lgpd legislacao conceitos
+O que é pseudonimização?;Tratamento que substitui dados identificadores por pseudônimos, mas ainda permite reidentificação;lgpd legislacao conceitos
+Dado pseudonimizado está sujeito à LGPD?;SIM. Pseudonimização é medida de segurança, mas o dado continua sendo pessoal;lgpd legislacao conceitos
+O que caracteriza um incidente de segurança?;Acesso não autorizado, destruição, perda, alteração, comunicação ou difusão indevida de dados;lgpd legislacao seguranca
+Prazo para comunicar incidente à ANPD?;Prazo razoável, conforme regulamentação da ANPD;lgpd legislacao seguranca prazos
+Quem deve ser comunicado em caso de incidente?;ANPD e os titulares afetados (quando houver risco ou dano relevante);lgpd legislacao seguranca
+O que é RIPD?;Relatório de Impacto à Proteção de Dados Pessoais - documento que descreve processos de tratamento de alto risco;lgpd legislacao ripd
+Quando o RIPD é obrigatório?;Quando o tratamento pode gerar risco às liberdades civis e direitos fundamentais dos titulares;lgpd legislacao ripd
+O que deve conter no RIPD?;Descrição dos dados, metodologia, análise de riscos, medidas de segurança e mitigação;lgpd legislacao ripd
+A LGPD se aplica a dados de pessoa jurídica?;NÃO. LGPD se aplica apenas a dados de pessoa NATURAL (física);lgpd legislacao conceitos
+A LGPD se aplica a tratamento fora do Brasil?;SIM, se: 1) objetivo é oferecer bens/serviços no Brasil, ou 2) dados foram coletados no Brasil;lgpd legislacao extraterritorialidade
+Qual a multa máxima prevista na LGPD?;R$ 50 milhões por infração, limitada a 2% do faturamento (o que for menor);lgpd legislacao sancoes
+Quais as sanções previstas na LGPD?;1. Advertência 2. Multa simples (até 2% faturamento, max R$50mi) 3. Multa diária 4. Publicização 5. Bloqueio/eliminação dos dados 6. Suspensão/proibição;lgpd legislacao sancoes
+O que é Privacy by Design?;Princípio de incorporar proteção de dados desde a concepção de produtos e serviços;lgpd legislacao principios
+O que é Privacy by Default?;Configurações padrão que garantam máxima proteção aos dados, sem necessidade de ação do titular;lgpd legislacao principios
+Crianças podem consentir com tratamento de dados?;NÃO. Tratamento de dados de menores de 18 anos requer consentimento dos pais/responsáveis (exceto para contato);lgpd legislacao criancas
+A LGPD permite transferência internacional de dados?;SIM, mas apenas para países com nível adequado de proteção ou mediante garantias específicas;lgpd legislacao transferencia-internacional
+O que são cláusulas contratuais padrão?;Mecanismo de garantia para transferência internacional, aprovado pela ANPD;lgpd legislacao transferencia-internacional
+Tratamento de dados para segurança pública está sujeito à LGPD?;Parcialmente. A Lei 13.853/2019 prevê que autoridades podem tratar dados, mas com restrições;lgpd legislacao excecoes
+Tratamento de dados para fins jornalísticos está sujeito à LGPD?;NÃO. Há exceção para fins jornalísticos, artísticos ou acadêmicos;lgpd legislacao excecoes
+O que significa "término do tratamento"?;Momento em que os dados devem ser eliminados (fim da finalidade, revogação de consentimento, etc.);lgpd legislacao ciclo-dados
+Após término do tratamento, dados sempre devem ser eliminados?;NÃO. Podem ser mantidos para: cumprimento legal, estudo, transferência a terceiro ou uso exclusivo do controlador (anonimizados);lgpd legislacao ciclo-dados
+O que é compartilhamento de dados?;Comunicação, difusão, transferência internacional, interconexão de dados pessoais por órgãos e entidades;lgpd legislacao conceitos
+Pode haver compartilhamento de dados entre empresas?;SIM, desde que haja base legal e seja informado ao titular;lgpd legislacao compartilhamento

@@ -1,0 +1,68 @@
+O que é OWASP?;Open Web Application Security Project - Organização sem fins lucrativos dedicada à segurança de aplicações web;owasp seguranca
+Qual a versão atual do OWASP Top 10?;2021 (publicada em setembro de 2021);owasp seguranca versao
+Qual o A01 do OWASP Top 10:2021?;A01:2021 - Broken Access Control (Quebra de Controle de Acesso);owasp seguranca top10
+O que é Broken Access Control (A01)?;Falhas que permitem usuários acessarem recursos sem autorização adequada;owasp seguranca a01
+Exemplo de Broken Access Control?;Modificar URL para acessar conta de outro usuário (/user/123 -> /user/124) sem validação;owasp seguranca a01
+Qual o A02 do OWASP Top 10:2021?;A02:2021 - Cryptographic Failures (Falhas Criptográficas);owasp seguranca top10
+O que são Cryptographic Failures (A02)?;Falhas relacionadas à criptografia que expõem dados sensíveis;owasp seguranca a02
+Exemplo de Cryptographic Failure?;Armazenar senhas em texto plano, usar algoritmos fracos (MD5, SHA1), transmitir dados sem TLS;owasp seguranca a02
+Qual o A03 do OWASP Top 10:2021?;A03:2021 - Injection (Injeção);owasp seguranca top10
+O que é Injection (A03)?;Inserção de código malicioso em entradas não validadas (SQL, NoSQL, OS command, LDAP);owasp seguranca a03
+Exemplo de SQL Injection?;Input: ' OR '1'='1 em campo de login, permitindo bypass de autenticação;owasp seguranca a03 sql-injection
+Como prevenir SQL Injection?;Usar prepared statements, validar inputs, escapar caracteres especiais, usar ORMs;owasp seguranca a03 prevencao
+Qual o A04 do OWASP Top 10:2021?;A04:2021 - Insecure Design (Design Inseguro);owasp seguranca top10
+O que é Insecure Design (A04)?;Ausência de controles de segurança desde a concepção da aplicação;owasp seguranca a04
+Diferença entre Insecure Design e Insecure Implementation?;Design Inseguro = falta de segurança no planejamento. Implementation = erro na execução de design seguro;owasp seguranca a04
+Qual o A05 do OWASP Top 10:2021?;A05:2021 - Security Misconfiguration (Configuração Incorreta de Segurança);owasp seguranca top10
+O que é Security Misconfiguration (A05)?;Configurações de segurança incorretas, incompletas ou padrões não alterados;owasp seguranca a05
+Exemplos de Security Misconfiguration?;Portas desnecessárias abertas, credenciais padrão, mensagens de erro detalhadas em produção, CORS mal configurado;owasp seguranca a05
+Qual o A06 do OWASP Top 10:2021?;A06:2021 - Vulnerable and Outdated Components (Componentes Vulneráveis e Desatualizados);owasp seguranca top10
+O que são Vulnerable and Outdated Components (A06)?;Uso de bibliotecas, frameworks ou componentes com vulnerabilidades conhecidas;owasp seguranca a06
+Como prevenir componentes vulneráveis?;Manter inventário de dependências, usar ferramentas SCA (Software Composition Analysis), atualizar regularmente;owasp seguranca a06 prevencao
+Qual o A07 do OWASP Top 10:2021?;A07:2021 - Identification and Authentication Failures (Falhas de Identificação e Autenticação);owasp seguranca top10
+O que são Authentication Failures (A07)?;Falhas que permitem comprometer senhas, chaves ou sessões;owasp seguranca a07
+Exemplos de Authentication Failures?;Permitir senhas fracas, credential stuffing, session fixation, falta de MFA;owasp seguranca a07
+O que é Session Fixation?;Ataque onde atacante força uso de ID de sessão conhecido para sequestrar a sessão;owasp seguranca a07
+O que é Credential Stuffing?;Ataque automatizado usando credenciais vazadas de outros sites;owasp seguranca a07
+Qual o A08 do OWASP Top 10:2021?;A08:2021 - Software and Data Integrity Failures (Falhas de Integridade de Software e Dados);owasp seguranca top10
+O que são Integrity Failures (A08)?;Código e infraestrutura que não protegem contra violações de integridade;owasp seguranca a08
+Exemplo de Integrity Failure?;Usar bibliotecas de CDNs não confiáveis, updates automáticos sem verificação de assinatura, deserialização insegura;owasp seguranca a08
+O que é Insecure Deserialization?;Vulnerabilidade ao deserializar objetos não confiáveis, podendo executar código malicioso;owasp seguranca a08
+Qual o A09 do OWASP Top 10:2021?;A09:2021 - Security Logging and Monitoring Failures (Falhas de Log e Monitoramento);owasp seguranca top10
+O que são Logging Failures (A09)?;Ausência ou inadequação de logs e monitoramento de segurança;owasp seguranca a09
+Por que logs são importantes?;Detectar incidentes, investigar ataques, atender requisitos de compliance (LGPD, etc.);owasp seguranca a09
+Qual o A10 do OWASP Top 10:2021?;A10:2021 - Server-Side Request Forgery (SSRF);owasp seguranca top10
+O que é SSRF (A10)?;Vulnerabilidade que permite atacante fazer requisições a partir do servidor para recursos internos ou externos;owasp seguranca a10
+Exemplo de SSRF?;Aplicação busca URL fornecida pelo usuário sem validação, permitindo acesso a http://localhost/admin ou recursos internos;owasp seguranca a10
+Como prevenir SSRF?;Validar e sanitizar URLs, usar whitelist de domínios, segmentar rede, desabilitar redirecionamentos HTTP;owasp seguranca a10 prevencao
+Liste os 10 do OWASP Top 10:2021;A01:Broken Access Control, A02:Cryptographic Failures, A03:Injection, A04:Insecure Design, A05:Misconfiguration, A06:Vulnerable Components, A07:Auth Failures, A08:Integrity Failures, A09:Logging Failures, A10:SSRF;owasp seguranca top10 lista
+Qual era o A01 em 2017 que mudou?;Injection era A01 em 2017, passou para A03 em 2021;owasp seguranca historico
+Qual vulnerabilidade nova apareceu em 2021?;A04:Insecure Design e A08:Integrity Failures são categorias novas/reformuladas em 2021;owasp seguranca historico
+O que é XSS (Cross-Site Scripting)?;Injeção de scripts maliciosos em páginas web visualizadas por outros usuários;owasp seguranca xss
+XSS está no OWASP Top 10:2021?;Sim, foi mesclado em A03:Injection;owasp seguranca xss a03
+Tipos de XSS?;1. Reflected XSS (refletido) 2. Stored XSS (persistente) 3. DOM-based XSS;owasp seguranca xss
+Como prevenir XSS?;Escapar outputs, validar inputs, usar Content Security Policy (CSP), encoding contextual;owasp seguranca xss prevencao
+O que é CSRF (Cross-Site Request Forgery)?;Ataque que força usuário autenticado a executar ações indesejadas em aplicação web;owasp seguranca csrf
+Como prevenir CSRF?;Usar tokens CSRF, validar Origin/Referer headers, SameSite cookies, exigir reautenticação para ações críticas;owasp seguranca csrf prevencao
+O que é Same-Origin Policy?;Política de segurança que restringe como documento/script de uma origem pode interagir com recursos de outra origem;owasp seguranca conceitos
+O que é CORS?;Cross-Origin Resource Sharing - mecanismo que permite recursos de uma página serem requisitados de outro domínio;owasp seguranca cors
+CORS mal configurado se encaixa onde no Top 10?;A05:Security Misconfiguration;owasp seguranca cors a05
+O que é MFA/2FA?;Multi-Factor Authentication / Two-Factor Authentication - múltiplos métodos de verificação de identidade;owasp seguranca autenticacao
+MFA previne qual vulnerabilidade do Top 10?;A07:Identification and Authentication Failures;owasp seguranca mfa a07
+O que é Least Privilege?;Princípio de conceder apenas permissões mínimas necessárias para realizar tarefa;owasp seguranca principios
+O que é Defense in Depth?;Estratégia de múltiplas camadas de segurança, não depender de única defesa;owasp seguranca principios
+O que é OWASP API Security Top 10?;Lista específica das 10 principais vulnerabilidades em APIs (versão 2023);owasp seguranca api
+Qual o #1 do OWASP API Security Top 10:2023?;API1:2023 - Broken Object Level Authorization (BOLA);owasp seguranca api
+O que é BOLA?;Broken Object Level Authorization - falha ao validar se usuário pode acessar objeto específico (ex: GET /api/user/123);owasp seguranca api bola
+O que é BFLA?;Broken Function Level Authorization - falha ao validar se usuário pode executar função (ex: admin vs user);owasp seguranca api
+O que é Rate Limiting?;Limite de requisições em período de tempo para prevenir abuso e DoS;owasp seguranca api
+Rate Limiting previne qual vulnerabilidade de API?;API4:2023 - Unrestricted Resource Consumption;owasp seguranca api
+O que é Mass Assignment?;Vulnerabilidade ao aceitar dados do cliente para popular objeto sem filtrar campos sensíveis;owasp seguranca api
+Exemplo de Mass Assignment?;User envia {name: "João", isAdmin: true} e aplicação aceita isAdmin sem validar;owasp seguranca api
+O que é OWASP ASVS?;Application Security Verification Standard - padrão para testar segurança de aplicações web;owasp seguranca asvs
+Quantos níveis tem o ASVS?;3 níveis: Level 1 (básico), Level 2 (padrão), Level 3 (crítico/alta segurança);owasp seguranca asvs
+O que é SAST?;Static Application Security Testing - análise de código-fonte sem executar aplicação;owasp seguranca devsecops
+O que é DAST?;Dynamic Application Security Testing - análise da aplicação em execução (black box);owasp seguranca devsecops
+O que é SCA?;Software Composition Analysis - análise de componentes e dependências de terceiros;owasp seguranca devsecops
+Diferença entre SAST e DAST?;SAST = análise estática do código (white box). DAST = análise dinâmica em execução (black box);owasp seguranca devsecops
+O que é Shift Left Security?;Mover testes de segurança para fases iniciais do desenvolvimento;owasp seguranca devsecops
